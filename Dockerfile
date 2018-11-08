@@ -1,8 +1,8 @@
 FROM node:10
 
-MAINTAINER Kagawa Gao <kingsongao1221@gmail.com>
-
 ARG VERSION=3.2.3
+
+LABEL maintainer=kingsongao1221@gmail.com
 
 LABEL version=$VERSION
 
@@ -17,6 +17,3 @@ RUN npm install -g gitbook-cli
 
 # install gitbook
 RUN gitbook fetch ${VERSION}
-
-# clean cache
-RUN npm cache clear && rm -rf /tmp/*
