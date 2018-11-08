@@ -1,3 +1,3 @@
-# [node-with-sshpass](https://hub.docker.com/r/kagawagao/node-with-sshpass/)
+# [gitbook](https://hub.docker.com/r/kagawagao/gitbook/)
 
-docker image which contain `node` and `sshpass`
+docker container which contain `node`/`sshpass`/`gitbook`
